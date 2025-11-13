@@ -1,0 +1,12 @@
+{
+  "doc": "Sales record schema",
+  "name": "SalesRecord",
+  "namespace": "sales",
+  "type": "record",
+  "fields": [
+    {"name": "client", "type": "string"},
+    {"name": "purchase_date", "type": "string"},
+    {"name": "product", "type": "string"},
+    {"name": "price", "type": "int"}
+  ]
+}
